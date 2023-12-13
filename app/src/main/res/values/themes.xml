@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SplashScreenTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/purple_500</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_wind</item>
+        <item name="windowSplashScreenAnimationDuration">100</item>
+        <item name="postSplashScreenTheme">@style/Theme.SplashScreen</item>
+    </style>
+    <style name="Theme.WeatherApp" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
